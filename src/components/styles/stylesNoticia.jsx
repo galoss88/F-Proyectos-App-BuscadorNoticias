@@ -21,9 +21,12 @@ export const ImageNoticia = styled.img`
 `;
 export const TituloNoticia = styled.h2`
   width: 100%;
-  font-size: 1rem;
+  max-height: 20%;
+
+  font-size: 0.8em;
   padding: 0 1rem;
   text-align: start;
+  white-space: wrap;
 `;
 export const DivLink = styled.div`
   width: 100%;
@@ -40,11 +43,11 @@ export const LinkUrl = styled(Link)`
   font-size: 0.8rem;
   padding: 0.4rem;
   text-align: center;
-  background-color: #3E9FC6;
+  background-color: #3e9fc6;
   color: white;
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
   :hover {
-    transition: background-color .3s ease;
+    transition: background-color 0.3s ease;
     background-color: #205266;
   }
 `;

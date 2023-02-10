@@ -5,7 +5,6 @@ export const ContainerFormulario = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   padding: 1.4rem;
 `;
 export const InputSubmit = styled.input`

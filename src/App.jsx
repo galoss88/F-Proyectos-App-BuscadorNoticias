@@ -6,7 +6,7 @@ import ListadoNoticias from "./components/ListadoNoticias";
 function App() {
   const [categoria, setCategoria] = useState("");
   const [noticias, setNoticias] = useState([]);
-  console.log(noticias)
+  
 
   //llamada Api traer informacion
   useEffect(() => {
